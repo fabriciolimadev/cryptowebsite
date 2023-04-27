@@ -6,30 +6,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link CSS-->
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <!--Link CSS-->
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <!--FONTES-->
     <title>Lima NFTS</title>
 </head>
 
 <body>
-    <section class="hero">
-        <header class="header-hero">
-            <nav class="nav-bar">
-                <h3 class="logo">Lima<span class="gr">NFTs</span></h3>
-                <ul class="menu">
-                    <li class="item-menu"><a href="#" class="link-menu">Comprar NFT</a></li>
-                    <li class="item-menu"><a href="#" class="link-menu">Sobre</a></li>
-                    <li class="item-menu"><a href="#" class="link-menu">FAQ</a></li>
-                </ul>
-                <button class="metamask" title="Conectar Carteira"><img src="#" alt="icon-metamask"> Conectar Carteira</button>
-            </nav>
-
-        </header>
+    <section id="hero">
+        <div class="container mauto">
+            <header class="header-hero">
+                <nav class="nav-bar">
+                    <a href="#"><img class="logo" src="/img/logo.svg" alt="Logo"></a>
+                    <ul class="menu">
+                        <li class="item-menu"><a href="#" class="link-menu">Comprar NFT</a></li>
+                        <li class="item-menu"><a href="#" class="link-menu">Sobre</a></li>
+                        <li class="item-menu"><a href="#" class="link-menu">FAQ</a></li>
+                    </ul>
+                    <button class="metamask" title="Conectar Carteira"><img class="icon-mask"
+                            src="/img/logo_MetaMask.svg" alt=""> Conectar
+                        Carteira</button>
+                </nav>
+            </header>
+            <div class="hero-content">
+                <div class="d1 column">
+                    <p class="text">Mercado digital para colecionáveis em criptos e tokens não fungível (NFT).
+                        Compre, venda e descubra ativos digitais exclusivos para você.</p>
+                    <div class="artist row">
+                        <img class="artist-group" src="img/group-avarts.png" alt="">
+                        <div class="column d1-text-wrapper">
+                            <p class="text"><strong>+10</strong></p>
+                            <p class="text">Artistas selecionados</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d2 column">
+                    <h1 class="title-1">Descubra a verdadeira
+                        arte digital e colecione diversas <span class="sb">NFTs</span> </h1>
+                </div>
+                <div class="d3 column">
+                    <img class="badge " src="img/badge.svg" alt="">
+                </div>
+            </div>
+            <section class="galery">
+                <img src="img/galeria-1.png" alt="Imagem galeria" class="image-galery">
+                <img src="img/galeria-2.png" alt="Imagem galeria" class="image-galery">
+                <img src="img/galeria-3.png" alt="Imagem galeria" class="image-galery">
+                <img src="img/galeria-4.png" alt="Imagem galeria" class="image-galery">
+                <img src="img/galeria-5.png" alt="Imagem galeria" class="image-galery">
+                <img src="img/galeria-6.png" alt="Imagem galeria" class="image-galery">
+                <img src="img/galeria-7.png" alt="Imagem galeria" class="image-galery">
+                <img src="img/galeria-8.png" alt="Imagem galeria" class="image-galery">
+            </section>
+        </div>
     </section>
+    <main>
+        <section id="sobre">
+            <div class="container mauto">
+                <div class="aside column">
+                    <div class="estatisticas">
+                        <h3 class="title-2">10K+</h3>
+                        <p class="text-2">Artes</p>
+                    </div>
+                    <div class="estatisticas">
+                        <h3 class="title-2">200+</h3>
+                        <p class="text-2">Vendas</p>
+                    </div>
+                    <div class="estatisticas">
+                        <h3 class="title-2">20</h3>
+                        <p class="text-2">Artistas</p>
+                    </div>
+                </div>
+                <div class="descricao row">
+                    <article class="artigo">
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet
+                            pretium lacus. Id <span class="sb line">potenti</span> diam et cras
+                            odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</p>
+                        <a href="#" class="text line">Lorem ipsum</a>
+                    </article>
+                    <article class="artigo column">
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet
+                            pretium lacus. Id <span class="sb line">potenti</span> diam et cras
+                            odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</p>
+                        <a href="#" class="text line">Lorem ipsum</a>
+                    </article>
+                </div>
+                <div class="sobre-image">
+                    <img src="img/banner.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

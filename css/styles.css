@@ -1,0 +1,102 @@
+body {
+  background-color: var(--body-background);
+}
+
+/*-----------------HEADER--------------------------*/
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem;
+}
+.logo {
+  width: 100%;
+}
+.menu {
+  font-size: 1.8rem;
+  display: flex;
+}
+.link-menu {
+  padding: 1.5rem;
+}
+
+.metamask {
+  color: var();
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+/*-----------------HEADER--------------------------*/
+
+/*-----------------HERO--------------------------*/
+#hero {
+  background-image: url(/img/background.png);
+  background-position: center;
+  width: 100vw;
+}
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 2rem;
+  margin: 8rem 0;
+}
+.d1 {
+  gap: 4rem;
+}
+.d1-text-wrapper {
+  justify-content: end;
+}
+
+.d3,
+.d2,
+.d1 {
+  justify-content: center;
+  align-items: center;
+}
+.artist {
+  gap: 1rem;
+}
+.galery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  row-gap: 4rem;
+  column-gap: 2rem;
+}
+.image-galery {
+  border: 1px solid var(--text-color);
+}
+
+/*-----------------HERO--------------------------*/
+
+/*-----------------SOBRE--------------------------*/
+#sobre .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "aside descricao descricao "
+    "aside sobre-image sobre-image";
+}
+.aside {
+  grid-area: aside;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.descricao {
+  grid-area: descricao;
+  align-items: center;
+  justify-content: center;
+}
+.artigo{
+    max-width: 400px;
+    gap: 2rem;
+}
+.sobre-image {
+  grid-area: sobre-image;
+}
+
+/*-----------------SOBRE--------------------------*/
