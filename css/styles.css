@@ -1,5 +1,7 @@
 body {
   background-color: var(--body-background);
+  
+  
 }
 
 /*-----------------HEADER--------------------------*/
@@ -16,6 +18,24 @@ body {
 .menu {
   font-size: 1.8rem;
   display: flex;
+}
+.menu-mb {
+  display: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.hamburguer {
+  display: none;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--text-color);
 }
 .link-menu {
   padding: 1.5rem;
@@ -43,6 +63,9 @@ body {
   background-image: url(/img/background.png);
   background-position: center;
   width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-content {
   display: grid;
@@ -171,7 +194,7 @@ body {
 }
 .best-galery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: minmax(0, 350px) minmax(0, 350px) minmax(0, 350px);
   grid-template-rows: 1fr 1fr;
   gap: 10rem;
 }
@@ -233,14 +256,13 @@ body {
   border: 1px solid #5a5757;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  
 }
 .wrapper-footer {
 }
 .links-footer {
   justify-content: center;
   align-items: center;
-  gap: 15rem;
+  gap: 14rem;
 }
 .news {
   gap: 5rem;
@@ -249,12 +271,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-.input-wrapper{
+.input-wrapper {
   background-color: var(--color-input);
-  width: 350px;
-  height: 66px ;
-  
-  
+  min-width: 350px;
+  min-height: 66px;
 }
 input[type="email"] {
   background-color: transparent;
@@ -264,8 +284,7 @@ input[type="email"] {
   outline: none;
   font-size: 2rem;
   width: 100%;
-  height: 66px;
-   
+  min-height: 66px;
 }
 input[type="submit"] {
   background-color: transparent;
@@ -275,17 +294,15 @@ input[type="submit"] {
   border: none;
   width: 100%;
   cursor: pointer;
-   
-  
 }
-.input-email{
+.input-email {
   width: 100%;
   height: 100%;
 }
-.btn-submit{
+.btn-submit {
   background-color: var(--text-color);
   display: flex;
-    width: 40%;
+  width: 40%;
   text-align: center;
   cursor: pointer;
 }
@@ -293,10 +310,12 @@ input[type="submit"] {
   justify-content: space-between;
   padding: 3rem 9rem;
 }
-.social-media{
+.social-media {
   gap: 10px;
 }
-.empresa,.mapa,.links{
+.empresa,
+.mapa,
+.links {
   line-height: 3.5rem;
 }
 
