@@ -1,86 +1,86 @@
 :root {
   --body-background: #0e0e0e;
-  --color-logo: #7ED957;
+  --color-logo: #7ed957;
   --card-color: #252525;
   --text-color: #fff;
   --subtitle-color: #5a5757;
   --black-text: #000;
-  --color-input: #0D0D0D;
+  --color-input: #0d0d0d;
 }
 
-.icon-mask{
-    width: 15%;
-    
+.icon-mask {
+  width: 15%;
 }
-.mauto{
-    margin: auto;
+.mauto {
+  margin: auto;
 }
-.sb{
-    color: var(--color-logo);
+.sb {
+  color: var(--color-logo);
 }
-.line{
-    text-decoration-line: underline;
+.line {
+  text-decoration-line: underline;
 }
-.text{
-    color: var(--text-color);
-    font-size: 1.8rem;
-    font-weight: 400;
+.text {
+  color: var(--text-color);
+  font-size: 1.8rem;
+  font-weight: 400;
 }
-.text-2{
-    font-weight: 600;
-    font-size: 2rem;
-    color: var(--subtitle-color);
+.text-2 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--subtitle-color);
 }
-.text-3{
-    font-weight: 600;
-    color: var(--subtitle-color);
-    font-size: 2.7rem;
+.text-3 {
+  font-weight: 600;
+  color: var(--subtitle-color);
+  font-size: 2.7rem;
 }
-.text-4{
-    font-weight: 400;
-    font-size: 2.7rem;
+.text-4 {
+  font-weight: 400;
+  font-size: 2.7rem;
 }
-.text-5{
-    font-weight: 700;
-    font-size: 2rem;
-    color: var(--text-color);
+.text-5 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--text-color);
 }
-.text-6{
-    font-weight: 400;
-    font-size: 2rem;
-    color: var(--subtitle-color);
+.text-6 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--subtitle-color);
 }
-.row{
-    display: flex;
+.row {
+  display: flex;
 }
-.column{
-    display: flex;
-    flex-direction: column;
+.column {
+  display: flex;
+  flex-direction: column;
 }
-.title-1{
-    color: var(--text-color);
-    font-size: 5rem;
-    font-weight: 700;
+.title-1 {
+  color: var(--text-color);
+  font-size: 5rem;
+  font-weight: 700;
 }
-.title-2{
-    color: var(--text-color);
-    font-weight: 600;
-    font-size: 5rem;
+.title-2 {
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 5rem;
 }
-.title-3{
-    color: var(--text-color);
-    font-weight: 500;
-    font-size: 3rem;
+.title-3 {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 3rem;
 }
-.w50{
-    width: 70%;
+.w50 {
+  width: 70%;
 }
 .container {
   max-width: 1200px;
+  padding: 2rem;
 }
-.normal{
-    background-color: var(--card-color);
+.normal {
+  background-color: var(--card-color);
 }
-.destaque{
-    background-color: var(--color-logo);
+.destaque {
+  background-color: var(--color-logo);
 }
