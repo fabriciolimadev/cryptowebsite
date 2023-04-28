@@ -77,7 +77,6 @@
 }
 .container {
   max-width: 1200px;
-  padding: 2rem;
 }
 .normal{
     background-color: var(--card-color);
