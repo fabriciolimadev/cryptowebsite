@@ -31,6 +31,25 @@
     font-size: 2rem;
     color: var(--subtitle-color);
 }
+.text-3{
+    font-weight: 600;
+    color: var(--subtitle-color);
+    font-size: 2.7rem;
+}
+.text-4{
+    font-weight: 400;
+    font-size: 2.7rem;
+}
+.text-5{
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--text-color);
+}
+.text-6{
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--subtitle-color);
+}
 .row{
     display: flex;
 }
@@ -48,9 +67,20 @@
     font-weight: 600;
     font-size: 5rem;
 }
+.title-3{
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 3rem;
+}
 .w50{
     width: 70%;
 }
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
+}
+.normal{
+    background-color: var(--card-color);
+}
+.destaque{
+    background-color: var(--color-logo);
 }

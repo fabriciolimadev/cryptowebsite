@@ -20,12 +20,21 @@ body {
 .link-menu {
   padding: 1.5rem;
 }
+.link-menu:hover {
+  color: var(--color-logo);
+}
 
 .metamask {
-  color: var();
+  color: var(--black-text);
   font-weight: 700;
   font-size: 1.6rem;
   padding: 1rem;
+  background-color: var(--text-color);
+  border: 0;
+  cursor: pointer;
+}
+.metamask:hover {
+  transform: scale(1.1);
 }
 /*-----------------HEADER--------------------------*/
 
@@ -85,18 +94,210 @@ body {
   align-items: center;
   text-align: center;
   gap: 2rem;
+  border-right: 1px solid #5a5757;
 }
 .descricao {
   grid-area: descricao;
   align-items: center;
   justify-content: center;
 }
-.artigo{
-    max-width: 400px;
-    gap: 2rem;
+.artigo {
+  max-width: 400px;
+  gap: 2rem;
 }
 .sobre-image {
   grid-area: sobre-image;
+  border-bottom: 1px solid #5a5757;
 }
 
-/*-----------------SOBRE--------------------------*/
+/*-----------------POPULARES--------------------------*/
+#populares {
+  padding: 10rem 0;
+}
+#populares .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas:
+    "t-populares t-populares"
+    "astronauts astronauts";
+}
+.t-populares {
+  grid-area: t-populares;
+}
+.astronauts {
+  grid-area: astronauts;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.coluna-1 {
+  border-right: 1px solid #5a5757;
+}
+.coluna-1,
+.coluna-2 {
+  gap: 3rem;
+}
+.card-astrounaut {
+  max-width: 377px;
+
+  gap: 3rem;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrow-deg-icon {
+  width: 27px;
+  cursor: pointer;
+}
+.header-card-astronaut {
+  display: flex;
+  justify-content: space-between;
+}
+.name-astronaut {
+  justify-content: space-between;
+}
+
+/*-----------------POPULARES--------------------------*/
+
+/*-----------------MELHORES--------------------------*/
+
+#melhores {
+  padding: 1rem 0 9rem 0;
+}
+.tittle-melhores {
+  text-align: center;
+}
+#melhores .container {
+  gap: 9rem;
+}
+.best-galery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 10rem;
+}
+.best-card {
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+  height: 150%;
+}
+.text-best {
+  gap: 1rem;
+}
+.artist-image {
+  width: 23%;
+}
+.ver-mais {
+  justify-content: center;
+}
+
+.arrow-icon {
+  width: 17px;
+  margin-left: 4rem;
+}
+
+/*-----------------MELHORES--------------------------*/
+
+/*-----------------FOOTER--------------------------*/
+
+#rodape {
+  background-color: var(--card-color);
+}
+.footer-1 {
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 9rem;
+}
+.logo-footer {
+  width: 100%;
+  flex-basis: 10px;
+}
+.wrapper-footer {
+  justify-content: space-between;
+}
+.btn-up {
+  background-color: var(--color-logo);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-up {
+  width: 22px;
+  height: 22px;
+}
+.footer-2 {
+  padding-right: 3rem;
+  border: 1px solid #5a5757;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+}
+.wrapper-footer {
+}
+.links-footer {
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+.news {
+  gap: 5rem;
+  border-right: 1px solid #5a5757;
+  padding: 5rem 0;
+  align-items: center;
+  justify-content: center;
+}
+.input-wrapper{
+  background-color: var(--color-input);
+  width: 350px;
+  height: 66px ;
+  
+  
+}
+input[type="email"] {
+  background-color: transparent;
+  border: 0;
+  color: var(--subtitle-color);
+  font-weight: 400;
+  outline: none;
+  font-size: 2rem;
+  width: 100%;
+  height: 66px;
+   
+}
+input[type="submit"] {
+  background-color: transparent;
+  color: var(--black-text);
+  font-size: 2rem;
+  font-weight: 700;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+   
+  
+}
+.input-email{
+  width: 100%;
+  height: 100%;
+}
+.btn-submit{
+  background-color: var(--text-color);
+  display: flex;
+    width: 40%;
+  text-align: center;
+  cursor: pointer;
+}
+.footer-3 {
+  justify-content: space-between;
+  padding: 3rem 9rem;
+}
+.social-media{
+  gap: 10px;
+}
+.empresa,.mapa,.links{
+  line-height: 3.5rem;
+}
+
+/*-----------------FOOTER--------------------------*/
